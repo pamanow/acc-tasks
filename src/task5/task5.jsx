@@ -91,7 +91,7 @@ export default App;
         }
     45: Please double check this line with business requirements according to fuel consumption calculations.
         Currently, consumption will grow far too fast comparable to the distance traveled
-    55: Please use const instead of var, also you can call it in one line, like f.e. { var1, var2 } = this.state;
+    55: Please use const instead of var, also you can call it in one line, like f.e. const { var1, var2 } = this.state;
     60: This block is not really HTML semantic friendly (you are using two h1 tags, one after another).
         Please use h1, h2, h3 with proper styles.
  */
